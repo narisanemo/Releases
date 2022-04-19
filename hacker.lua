@@ -7,12 +7,16 @@ Font = Enum.Font.SourceSansBold;
 FontSize = Enum.FontSize.Size24;
 })
  
-local s = VLib:Window("Random Gui", "By nar", "emo")
+local s = VLib:Window("Da Hood", "By nar", " emo")
  
 local ss = s:Tab("Main")
 
 ss:Button("Fly - C To Fly",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/W9K/roblox-scripts/main/DHC/Fly.lua'))()
+end)
+
+ss:Button("Anti Stomp",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlueaqeR/scripts-lol/main/Da%20Hood%20Anti%20Stomp%20(Optimized)"))()
 end)
 
 ss:Button("Anti Slow",function()
@@ -27,8 +31,8 @@ ss:Button("Big Head (RTHRO HEAD AND R15 REQUIRED)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/vahidDqX'))()
 end)
 
-ss:Button("Anti Stomp",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlueaqeR/scripts-lol/main/Da%20Hood%20Anti%20Stomp%20(Optimized)"))()
+ss:Button("Chat Logs",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/nzXicwc1", true))()
 end)
 
 ss:Button("Lock (Q)",function()
@@ -172,3 +176,4 @@ end)
 ss:Button("Gas Station",function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(593.900024, 49.0000305, -258.109253, 0.00797744654, -5.46651719e-08, 0.999968171, 5.64564075e-08, 1, 5.42165175e-08, -0.999968171, 5.60221025e-08, 0.00797744654)
 end)
+
