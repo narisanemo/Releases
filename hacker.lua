@@ -59,6 +59,10 @@ ss:Button("Animation Changer",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/ZSEJM0yx'))()
 end)
 
+ss:Button("Animation Gamepass (FREE)",function()
+    https://pastebin.com/raw/8F3gzaZt
+end)
+
 ss:Button("Anti AFK",function()
     local vu = game:GetService("VirtualUser")
     game:GetService("Players").LocalPlayer.Idled:connect(function()
