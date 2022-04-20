@@ -55,10 +55,6 @@ ss:Button("Headless (NOT FE)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/4wESFR1h'))()
 end)
 
-ss:Button("Animation Changer",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/ZSEJM0yx'))()
-end)
-
 ss:Button("Animation Gamepass (FREE)",function()
      loadstring(game:HttpGet('https://pastebin.com/raw/8F3gzaZt'))()
 end)
@@ -181,3 +177,60 @@ ss:Button("Gas Station",function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(593.900024, 49.0000305, -258.109253, 0.00797744654, -5.46651719e-08, 0.999968171, 5.64564075e-08, 1, 5.42165175e-08, -0.999968171, 5.60221025e-08, 0.00797744654)
 end)
 
+local ss = s:Tab("Animations")
+
+ss:Button("Zombie Animation",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/a5VAKsFF'))()
+end)
+
+ss:Button("Oldschool Animation",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/pcsnxumy'))()
+end)
+
+ss:Button("Bubbly Animation",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/htN5Ru8P'))()
+end)
+
+ss:Button("Ninja Animation",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/Bfkap3FN'))()
+end)
+
+ss:Button("Rthro Animation",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/TgH3g1Ap'))()
+end)
+
+ss:Button("Astronaut Animation",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/KYxsm8WG'))()
+end)
+
+ss:Button("Pirate Animation",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/Tzw6bKHj'))()
+end)
+
+ss:Button("Knight Animation",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/NQk1qnfZ'))()
+end)
+
+ss:Button("Superhero Animation",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/KRsTStbV'))()
+end)
+
+ss:Button("Toy Animation",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/f827i79x'))()
+end)
+
+ss:Button("Mage Animation",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/dBqgzLeV'))()
+end)
+
+ss:Button("Animation Changer GUI",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/ZSEJM0yx'))()
+end)
+
+local ss = s:Tab("Credits")
+
+ss:Button("Script Made and Built by nar",function()
+end)
+
+ss:Button("Contact nar#6969 To Suggest something.",function()
+end)
