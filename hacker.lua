@@ -60,7 +60,7 @@ ss:Button("Animation Changer",function()
 end)
 
 ss:Button("Animation Gamepass (FREE)",function()
-    https://pastebin.com/raw/8F3gzaZt
+     loadstring(game:HttpGet('https://pastebin.com/raw/8F3gzaZt'))()
 end)
 
 ss:Button("Anti AFK",function()
