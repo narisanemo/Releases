@@ -192,7 +192,7 @@ end)
 
 local ss = s:Tab("Animations")
 
-ss:Button("Tryharder Animation",function()
+ss:Button(Animation Resetter",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/qvcYgWFD'))()
 end)
 
