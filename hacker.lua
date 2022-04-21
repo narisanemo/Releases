@@ -68,6 +68,10 @@ ss:Button("Rejoin",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/hXVHw51B'))()
 end)
 
+ss:Button("Server Hop",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/p7ShYJY2'))()
+end)
+
 ss:Button("Animation Gamepass (FREE)",function()
      loadstring(game:HttpGet('https://pastebin.com/raw/bq8Lmz2N'))()
 end)
