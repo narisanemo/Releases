@@ -124,6 +124,18 @@ ss:Button("Stop Dropping",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/qBN30viV'))()
 end)
 
+ss:Button("Money Counter",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/6D7K5vL4'))()
+end)
+
+ss:Button("15 Minute Crasher, Requires 100K",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/dhcquickcrash.lua"))()
+end)
+
+ss:Button("Swagmode Crasher",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
+end)
+
 local ss = s:Tab("Quick Teleport")
 
 ss:Button("Admin Base",function()
