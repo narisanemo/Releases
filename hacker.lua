@@ -248,61 +248,6 @@ Animator:addButton("Knight", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=657600338"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-Animator:addButton("Levitation", function()
-	local Animate = game.Players.LocalPlayer.Character.Animate
-	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616006778"
-	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616008087"
-	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616013216"
-	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616010382"
-	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
-	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616003713"
-	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
-	game.Players.LocalPlayer.Character.Humanoid.Jump = true
-end)
-Animator:addButton("Mage", function()
-	local Animate = game.Players.LocalPlayer.Character.Animate
-	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
-	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
-	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
-	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
-	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=707853694"
-	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=707826056"
-	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
-	game.Players.LocalPlayer.Character.Humanoid.Jump = true
-end)
-Animator:addButton("Ninja", function()
-	local Animate = game.Players.LocalPlayer.Character.Animate
-	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=656117400"
-	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=656118341"
-	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=656121766"
-	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=656118852"
-	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
-	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=656114359"
-	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
-	game.Players.LocalPlayer.Character.Humanoid.Jump = true
-end)
-Animator:addButton("Pirate", function()
-	local Animate = game.Players.LocalPlayer.Character.Animate
-	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=750781874"
-	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=750782770"
-	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=750785693"
-	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=750783738"
-	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=750782230"
-	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=750779899"
-	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=750780242"
-	game.Players.LocalPlayer.Character.Humanoid.Jump = true
-end)
-Animator:addButton("Robot", function()
-	local Animate = game.Players.LocalPlayer.Character.Animate
-	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616088211"
-	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616089559"
-	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616095330"
-	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616091570"
-	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616090535"
-	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616086039"
-	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616087089"
-	game.Players.LocalPlayer.Character.Humanoid.Jump = true
-end)
 Animator:addButton("Stylish", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616136790"
@@ -358,6 +303,7 @@ Animator:addButton("Werewolf", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
+
 Animator:addButton("Zombie", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616158929"
@@ -367,6 +313,62 @@ Animator:addButton("Zombie", function()
 	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616161997"
 	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616156119"
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616157476"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+Animator:addButton("Levitation", function()
+	local Animate = game.Players.LocalPlayer.Character.Animate
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616006778"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616008087"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616013216"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616010382"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616003713"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+Animator:addButton("Mage", function()
+	local Animate = game.Players.LocalPlayer.Character.Animate
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=707853694"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=707826056"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+Animator:addButton("Ninja", function()
+	local Animate = game.Players.LocalPlayer.Character.Animate
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=656117400"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=656118341"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=656121766"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=656118852"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=656114359"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+Animator:addButton("Pirate", function()
+	local Animate = game.Players.LocalPlayer.Character.Animate
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=750781874"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=750782770"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=750785693"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=750783738"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=750782230"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=750779899"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=750780242"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+Animator:addButton("Robot", function()
+	local Animate = game.Players.LocalPlayer.Character.Animate
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616088211"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616089559"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616095330"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616091570"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616090535"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616086039"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616087089"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
 
