@@ -32,6 +32,10 @@ ss:Button("Anti Stomp",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlueaqeR/scripts-lol/main/Da%20Hood%20Anti%20Stomp%20(Optimized)"))()
 end)
 
+ss:Button("Fist Reach",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/Ry6Zd9aE'))()
+end)
+
 ss:Button("Force Reset",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/nvd6WR9L'))()
 end)
