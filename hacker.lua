@@ -192,7 +192,7 @@ end)
 
 local ss = s:Tab("Animations")
 
-ss:Button("Astronaut", function()
+Animator:addButton("Astronaut", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=891621366"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=891633237"
@@ -203,7 +203,7 @@ ss:Button("Astronaut", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=891617961"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Bubbly", function()
+Animator:addButton("Bubbly", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=910004836"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=910009958"
@@ -215,7 +215,7 @@ ss:Button("Bubbly", function()
 	Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=910028158"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Cartoony", function()
+Animator:addButton("Cartoony", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=742637544"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=742638445"
@@ -226,7 +226,7 @@ ss:Button("Cartoony", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=742637151"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Elder", function()
+Animator:addButton("Elder", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=845397899"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=845400520"
@@ -237,7 +237,7 @@ ss:Button("Elder", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=845396048"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Knight", function()
+Animator:addButton("Knight", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=657595757"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=657568135"
@@ -248,7 +248,7 @@ ss:Button("Knight", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=657600338"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Levitation", function()
+Animator:addButton("Levitation", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616006778"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616008087"
@@ -259,7 +259,7 @@ ss:Button("Levitation", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Mage", function()
+Animator:addButton("Mage", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
@@ -270,7 +270,7 @@ ss:Button("Mage", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Ninja", function()
+Animator:addButton("Ninja", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=656117400"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=656118341"
@@ -281,7 +281,7 @@ ss:Button("Ninja", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Pirate", function()
+Animator:addButton("Pirate", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=750781874"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=750782770"
@@ -292,7 +292,7 @@ ss:Button("Pirate", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=750780242"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Robot", function()
+Animator:addButton("Robot", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616088211"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616089559"
@@ -303,7 +303,7 @@ ss:Button("Robot", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616087089"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:addButton("Stylish", function()
+Animator:addButton("Stylish", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616136790"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616138447"
@@ -314,7 +314,7 @@ ss:addButton("Stylish", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616134815"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Superhero", function()
+Animator:addButton("Superhero", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616111295"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616113536"
@@ -325,7 +325,7 @@ ss:Button("Superhero", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616108001"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Toy", function()
+Animator:addButton("Toy", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782845736"
@@ -336,7 +336,7 @@ ss:Button("Toy", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=782846423"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Vampire", function()
+Animator:addButton("Vampire", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083445855"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083450166"
@@ -347,7 +347,7 @@ ss:Button("Vampire", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083443587"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Werewolf", function()
+Animator:addButton("Werewolf", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083195517"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083214717"
@@ -358,7 +358,7 @@ ss:Button("Werewolf", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-ss:Button("Zombie", function()
+Animator:addButton("Zombie", function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616158929"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616160636"
