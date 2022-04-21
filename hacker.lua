@@ -93,6 +93,10 @@ ss:Button("Auto Stomp Off",function()
      loadstring(game:HttpGet('https://pastebin.com/raw/U7h1hn4e'))()
 end)
 
+ss:Button("Show Masked Usernames",function()
+     loadstring(game:HttpGet('https://pastebin.com/raw/CpddXYUU'))()
+end)
+
 local ss = s:Tab("Fun Stuff")
 
 ss:Button("Headless (NOT FE)",function()
