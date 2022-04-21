@@ -69,7 +69,7 @@ ss:Button("Headless (NOT FE)",function()
 end)
 
 ss:Button("Animation Gamepass (FREE)",function()
-     loadstring(game:HttpGet('https://pastebin.com/raw/8F3gzaZt'))()
+     loadstring(game:HttpGet('https://pastebin.com/raw/bq8Lmz2N'))()
 end)
 
 ss:Button("Anti AFK",function()
@@ -192,52 +192,8 @@ end)
 
 local ss = s:Tab("Animations")
 
-ss:Button("Zombie Animation",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/a5VAKsFF'))()
-end)
-
-ss:Button("Oldschool Animation",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/pcsnxumy'))()
-end)
-
-ss:Button("Bubbly Animation",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/htN5Ru8P'))()
-end)
-
-ss:Button("Ninja Animation",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/Bfkap3FN'))()
-end)
-
-ss:Button("Rthro Animation",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/TgH3g1Ap'))()
-end)
-
-ss:Button("Astronaut Animation",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/KYxsm8WG'))()
-end)
-
-ss:Button("Pirate Animation",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/Tzw6bKHj'))()
-end)
-
-ss:Button("Knight Animation",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/NQk1qnfZ'))()
-end)
-
-ss:Button("Superhero Animation",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/KRsTStbV'))()
-end)
-
-ss:Button("Toy Animation",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/f827i79x'))()
-end)
-
-ss:Button("Mage Animation",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/dBqgzLeV'))()
-end)
-
-ss:Button("Animation Changer GUI",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/ZSEJM0yx'))()
+ss:Button("Tryharder Animation",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/qvcYgWFD'))()
 end)
 
 local ss = s:Tab("Credits")
