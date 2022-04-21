@@ -20,7 +20,7 @@ Font = Enum.Font.SourceSansBold;
 FontSize = Enum.FontSize.Size24;
 })
  
-local s = VLib:Window("Da Hood", "By nar", " emo")
+local s = VLib:Window("Da Hood", "By nar", " DH")
  
 local ss = s:Tab("Main")
 
@@ -192,7 +192,7 @@ end)
 
 local ss = s:Tab("Animations")
 
-ss:Button(Animation Resetter",function()
+ss:Button(Animation Reset",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/qvcYgWFD'))()
 end)
 
