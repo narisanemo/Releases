@@ -44,10 +44,6 @@ ss:Button("Infinite Jump",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/KBjXt9rW'))()
 end)
 
-ss:Button("Big Head (RTHRO HEAD AND R15 REQUIRED)",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/vahidDqX'))()
-end)
-
 ss:Button("Chat Logs",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/nzXicwc1", true))()
 end)
@@ -64,14 +60,6 @@ ss:Button("No Textures (Gives More FPS)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/XG1Rep1S'))()
 end)
 
-ss:Button("Korblox (NOT FE, PREFERED SKINNY)",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/wYfvrD4C'))()
-end)
-
-ss:Button("Headless (NOT FE)",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/4wESFR1h'))()
-end)
-
 ss:Button("Animation Gamepass (FREE)",function()
      loadstring(game:HttpGet('https://pastebin.com/raw/bq8Lmz2N'))()
 end)
@@ -83,6 +71,20 @@ ss:Button("Anti AFK",function()
        wait(1)
        vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
     end)
+end)
+
+local ss = s:Tab("Fun Stuff")
+
+ss:Button("Headless (NOT FE)",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/4wESFR1h'))()
+end)
+
+ss:Button("Korblox (NOT FE, PREFERED SKINNY)",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/wYfvrD4C'))()
+end)
+
+ss:Button("Big Head (RTHRO HEAD AND R15 REQUIRED)",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/vahidDqX'))()
 end)
 
 local ss = s:Tab("Player")
