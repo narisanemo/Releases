@@ -114,6 +114,16 @@ ss:Button("Reset Walk and Jump to Normal",function()
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 end)
 
+local ss = s:Tab("Money Stuff")
+
+ss:Button("Drop Cash",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/5dR9Sm0Q'))()
+end)
+
+ss:Button("Stop Dropping",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/qBN30viV'))()
+end)
+
 local ss = s:Tab("Quick Teleport")
 
 ss:Button("Admin Base",function()
