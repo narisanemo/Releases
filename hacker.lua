@@ -64,6 +64,10 @@ ss:Button("No Textures (Gives More FPS)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/XG1Rep1S'))()
 end)
 
+ss:Button("Rejoin",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/hXVHw51B'))()
+end)
+
 ss:Button("Animation Gamepass (FREE)",function()
      loadstring(game:HttpGet('https://pastebin.com/raw/bq8Lmz2N'))()
 end)
