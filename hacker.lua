@@ -85,6 +85,14 @@ ss:Button("Anti AFK",function()
     end)
 end)
 
+ss:Button("Auto Stomp On",function()
+     loadstring(game:HttpGet('https://pastebin.com/raw/WNzDtY4D'))()
+end)
+
+ss:Button("Auto Stomp Off",function()
+     loadstring(game:HttpGet('https://pastebin.com/raw/U7h1hn4e'))()
+end)
+
 local ss = s:Tab("Fun Stuff")
 
 ss:Button("Headless (NOT FE)",function()
@@ -122,6 +130,14 @@ end)
 
 ss:Button("Stop Dropping",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/qBN30viV'))()
+end)
+
+ss:Button("Enable Cash Aura",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/ub8iut5d'))()
+end)
+
+ss:Button("Disable Cash Aura",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/xGRJuJCB'))()
 end)
 
 ss:Button("Money Counter",function()
