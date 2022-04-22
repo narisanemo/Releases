@@ -186,6 +186,10 @@ ss:Button("Autofarm GUI",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/HFH24mKw'))()
 end)
 
+ss:Button("Cash ESP",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/fVgfE6wS'))()
+end)
+
 local ss = s:Tab("Quick Teleport")
 
 ss:Button("Admin Base",function()
