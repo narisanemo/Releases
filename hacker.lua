@@ -87,8 +87,8 @@ end)
 
 local ss = s:Tab("Fun Stuff")
 
-ss:Button("Shazam!",function()
-     loadstring(game:HttpGet('https://pastebin.com/raw/xP3y7u6C'))()
+ss:Button("HolyCross (FE)",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/FpYUEq6K'))()
 end)
 
 ss:Button("Walk On Walls (FE)",function()
@@ -188,10 +188,6 @@ end)
 
 ss:Button("Autofarm GUI",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/HFH24mKw'))()
-end)
-
-ss:Button("Cash ESP",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/fVgfE6wS'))()
 end)
 
 local ss = s:Tab("Quick Teleport")
