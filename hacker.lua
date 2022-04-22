@@ -81,14 +81,6 @@ ss:Button("Anti AFK",function()
     end)
 end)
 
-ss:Button("Auto Stomp On",function()
-     loadstring(game:HttpGet('https://pastebin.com/raw/WNzDtY4D'))()
-end)
-
-ss:Button("Auto Stomp Off",function()
-     loadstring(game:HttpGet('https://pastebin.com/raw/U7h1hn4e'))()
-end)
-
 ss:Button("Show Masked Usernames",function()
      loadstring(game:HttpGet('https://pastebin.com/raw/CpddXYUU'))()
 end)
@@ -127,6 +119,24 @@ ss:Button("Big Head FE (RTHRO HEAD AND R15 REQUIRED)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/vahidDqX'))()
 end)
 
+local ss = s:Tab("Combat")
+
+ss:Button("Fist Reach",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/GxgJ8F1a'))()
+end)
+
+ss:Button("Tool Reach",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/nMSt3T7A'))()
+end)
+
+ss:Button("Auto Stomp On",function()
+     loadstring(game:HttpGet('https://pastebin.com/raw/WNzDtY4D'))()
+end)
+
+ss:Button("Auto Stomp Off",function()
+     loadstring(game:HttpGet('https://pastebin.com/raw/U7h1hn4e'))()
+end)
+
 local ss = s:Tab("Player")
 
 ss:Slider("JumpPower",0,500,50,function(t)
@@ -140,16 +150,6 @@ end)
 ss:Button("Reset Walk and Jump to Normal",function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-end)
-
-local ss = s:Tab("Combat")
-
-ss:Button("Fist Reach",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/GxgJ8F1a'))()
-end)
-
-ss:Button("Tool Reach",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/nMSt3T7A'))()
 end)
 
 local ss = s:Tab("Money Stuff")
