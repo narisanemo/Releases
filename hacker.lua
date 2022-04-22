@@ -99,16 +99,20 @@ end)
 
 local ss = s:Tab("Fun Stuff")
 
+ss:Button("Walk On Walls (FE)",function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/WalkOnWalls/main/YesEpic", true))()
+end)
+
 ss:Button("Open Admin Base (NOT FE)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/9vqj15EH'))()
 end)
 
-ss:Button("PPBat (FE)",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/YumC8gwX'))()
-end)
-
 ss:Button("Close Admin Base (NOT FE)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/xAKbdYAb'))()
+end)
+
+ss:Button("PPBat (FE)",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/YumC8gwX'))()
 end)
 
 ss:Button("Headless (NOT FE)",function()
@@ -119,7 +123,7 @@ ss:Button("Korblox (NOT FE, PREFERED SKINNY)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/wYfvrD4C'))()
 end)
 
-ss:Button("Big Head (RTHRO HEAD AND R15 REQUIRED)",function()
+ss:Button("Big Head FE (RTHRO HEAD AND R15 REQUIRED)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/vahidDqX'))()
 end)
 
