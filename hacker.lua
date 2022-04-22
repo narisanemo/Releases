@@ -182,6 +182,10 @@ ss:Button("Swagmode Crasher",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
 end)
 
+ss:Button("Autofarm GUI",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/HFH24mKw'))()
+end)
+
 local ss = s:Tab("Quick Teleport")
 
 ss:Button("Admin Base",function()
