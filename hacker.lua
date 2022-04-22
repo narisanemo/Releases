@@ -111,6 +111,10 @@ ss:Button("PPBat (FE)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/YumC8gwX'))()
 end)
 
+ss:Button("Broken Bones (FE)",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/X3LJJhuv'))()
+end)
+
 ss:Button("Headless (NOT FE)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/4wESFR1h'))()
 end)
