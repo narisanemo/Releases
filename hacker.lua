@@ -103,6 +103,10 @@ ss:Button("Open Admin Base (NOT FE)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/9vqj15EH'))()
 end)
 
+ss:Button("PPBat (FE)",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/YumC8gwX'))()
+end)
+
 ss:Button("Close Admin Base (NOT FE)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/xAKbdYAb'))()
 end)
