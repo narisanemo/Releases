@@ -33,7 +33,7 @@ ss:Button("Anti Stomp",function()
 end)
 
 ss:Button("Fist Reach",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/Ry6Zd9aE'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/L1FGgi50'))()
 end)
 
 ss:Button("Force Reset",function()
