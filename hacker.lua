@@ -99,8 +99,12 @@ end)
 
 local ss = s:Tab("Fun Stuff")
 
-ss:Button("Shazam! (NOT FE)",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/gHLJhm1Q'))()
+ss:Button("Open Admin Base (NOT FE)",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/9vqj15EH'))()
+end)
+
+ss:Button("Close Admin Base (NOT FE)",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/xAKbdYAb'))()
 end)
 
 ss:Button("Headless (NOT FE)",function()
