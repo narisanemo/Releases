@@ -115,6 +115,24 @@ ss:Button("Broken Bones (FE)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/X3LJJhuv'))()
 end)
 
+ss:Button("SuperHuman [Z]",function()
+superhuman = false
+    plr = game.Players.LocalPlayer
+    mouse = plr:GetMouse()
+    mouse.KeyDown:connect(function(key)				
+        if key == "z" and superhuman == false then
+            superhuman = true
+            game.Players.LocalPlayer.Character.Humanoid.Name = "Humz"
+            game.Players.LocalPlayer.Character.Humz.WalkSpeed = 100
+            game.Players.LocalPlayer.Character.Humz.JumpPower = 200
+        elseif key == "z" and superhuman == true then
+            superhuman = false
+            game.Players.LocalPlayer.Character.Humz.WalkSpeed = 16
+            game.Players.LocalPlayer.Character.Humz.JumpPower = 50
+            game.Players.LocalPlayer.Character.Humz.Name = "Humanoid"
+        end
+    end)
+
 ss:Button("Headless (NOT FE)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/4wESFR1h'))()
 end)
