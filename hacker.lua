@@ -138,6 +138,16 @@ ss:Button("Reset Walk and Jump to Normal",function()
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 end)
 
+local ss = s:Tab("Combat")
+
+ss:Button("Fist Reach",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/GxgJ8F1a'))()
+end)
+
+ss:Button("Tool Reach",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/nMSt3T7A'))()
+end)
+
 local ss = s:Tab("Money Stuff")
 
 ss:Button("Drop Cash",function()
