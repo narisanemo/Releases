@@ -87,10 +87,6 @@ end)
 
 local ss = s:Tab("Fun Stuff")
 
-ss:Button("HolyCross (FE)",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/FpYUEq6K'))()
-end)
-
 ss:Button("Walk On Walls (FE)",function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/WalkOnWalls/main/YesEpic", true))()
 end)
