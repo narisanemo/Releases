@@ -99,6 +99,10 @@ end)
 
 local ss = s:Tab("Fun Stuff")
 
+ss:Button("Shazam! (NOT FE)",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/gHLJhm1Q'))()
+end)
+
 ss:Button("Headless (NOT FE)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/4wESFR1h'))()
 end)
