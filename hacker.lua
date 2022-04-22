@@ -164,7 +164,7 @@ ss:Button("Fist Reach",function()
     selectionBox.Adornee = LP.Character.LeftHand 
     selectionBox = Enum.Material.Neon
     selectionBox.Color3 = Color3.new(1, 1, 1) 
-end
+end)
 
 local ss = s:Tab("Fun Stuff")
 
