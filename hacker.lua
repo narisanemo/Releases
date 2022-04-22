@@ -102,68 +102,9 @@ for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren())do
             a.Adornee = v.Handle
             v.Handle.Size = Vector3.new(50, 50, 50)
             v.Handle.Transparency = 1.000
-        end
-    end
 
 ss:Button("Fist Reach",function()
-        local LP = game.Players.LocalPlayer 
-
-    for i,v in ipairs(LP.Character:GetDescendants()) do 
-
-        if v:IsA("MeshPart") then v.Massless = true 
-
-            v.CanCollide = false 
-
-
-            v.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0, 0, 0) 
-
-
-        end 
-
-    end 
-
-
-    for i,v in ipairs(game.workspace:GetDescendants()) do 
-
-        if v:IsA("Seat") then 
-
-            v.Disabled = true 
-
-        end 
-
-    end 
-
-    x = 45
-
-    y = 45 
-
-    z = 45
-
-
-
-    local Luigi = Vector3.new(x,y,z) 
-
-
-    LP.Character.RightHand.Size = Mario 
-
-
-    local selectionBox = Instance.new("SelectionBox",LP.Character.RightHand) 
-
-    selectionBox.Adornee = LP.Character.RightHand 
-    selectionBox = Enum.Material.Neon
-    selectionBox.Color3 = Color3.new(1, 1, 1)  
-
-    LP.Character.LeftHand.Size = Luigi 
-
-    LP.Character.BodyEffects.SpecialParts.LeftHand.Size = Mario 
-
-
-
-    local selectionBox = Instance.new("SelectionBox",LP.Character.LeftHand) 
-
-    selectionBox.Adornee = LP.Character.LeftHand 
-    selectionBox = Enum.Material.Neon
-    selectionBox.Color3 = Color3.new(1, 1, 1) 
+    loadstring(game:HttpGet('https://pastebin.com/raw/L1FGgi50'))()
 end)
 
 local ss = s:Tab("Fun Stuff")
