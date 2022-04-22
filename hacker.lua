@@ -130,7 +130,6 @@ superhuman = false
             game.Players.LocalPlayer.Character.Humz.WalkSpeed = 16
             game.Players.LocalPlayer.Character.Humz.JumpPower = 50
             game.Players.LocalPlayer.Character.Humz.Name = "Humanoid"
-        end
     end)
 
 ss:Button("Headless (NOT FE)",function()
