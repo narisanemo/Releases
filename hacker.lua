@@ -93,20 +93,6 @@ ss:Button("Show Masked Usernames",function()
      loadstring(game:HttpGet('https://pastebin.com/raw/CpddXYUU'))()
 end)
 
-local ss = s:Tab("Combat")
-
-ss:Button("Melee Reach",function()
-for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren())do
-        if v:isA("Tool") then
-            local a = Instance.new("SelectionBox",v.Handle)
-            a.Adornee = v.Handle
-            v.Handle.Size = Vector3.new(50, 50, 50)
-            v.Handle.Transparency = 1.000
-
-ss:Button("Fist Reach",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/L1FGgi50'))()
-end)
-
 local ss = s:Tab("Fun Stuff")
 
 ss:Button("Walk On Walls (FE)",function()
