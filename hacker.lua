@@ -24,8 +24,8 @@ local s = VLib:Window("GingerVirus", "By nar#6969", "DH")
  
 local ss = s:Tab("Main")
 
-ss:Button("Fly - C To Fly",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/W9K/roblox-scripts/main/DHC/Fly.lua'))()
+ss:Button("Fly [X]",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/Ujq8iQp2'))()
 end)
 
 ss:Button("Anti Stomp",function()
