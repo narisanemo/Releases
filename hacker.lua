@@ -462,6 +462,16 @@ ss:Button("Robot", function()
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
 
+local ss = s:Tab("Auto Redeem All Codes")
+
+ss:Button("150K Code (easterdahood)",function()
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
+game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
+end)
+
 local ss = s:Tab("Credits")
 
 ss:Button("Script Made and Built by nar",function()
