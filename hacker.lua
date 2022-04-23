@@ -465,16 +465,6 @@ ss:Button("Robot", function()
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
 
-local ss = s:Tab("Promocodes - FREE CASH")
-
-ss:Button("150K",function()
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
-repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
-game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
-end)
-
 local ss = s:Tab("Credits")
 
 ss:Button("Script Made and Built by nar",function()
@@ -482,3 +472,9 @@ end)
 
 ss:Button("Contact nar#6969 To Suggest something.",function()
 end)
+
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
+game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
