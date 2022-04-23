@@ -127,13 +127,13 @@ ss:Button("Skinny[NOT FE]",function()
         local Plr = game.Players.LocalPlayer;
     Plr.Character.Humanoid.BodyWidthScale.Value = 0.47;
     Plr.Character.Humanoid.BodyDepthScale.Value = 0.47;
-end);
+end)
 
 ss:Button("Normal[NOT FE]",function()
 local Plr = game.Players.LocalPlayer;
 Plr.Character.Humanoid.BodyWidthScale.Value = 1;
 Plr.Character.Humanoid.BodyDepthScale.Value = 1;
-end);
+end)
 
 local ss = s:Tab("Combat")
 
