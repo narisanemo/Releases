@@ -20,7 +20,7 @@ Font = Enum.Font.SourceSansBold;
 FontSize = Enum.FontSize.Size24;
 })
  
-local s = VLib:Window("Da Hood", "By nar", "DH")
+local s = VLib:Window("GingerVirus", "By nar#6969", "DH")
  
 local ss = s:Tab("Main")
 
