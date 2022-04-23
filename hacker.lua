@@ -454,7 +454,7 @@ ss:Button("Pirate", function()
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
 ss:Button("Robot", function()
-	local Animate = game.Players.LocalPlayer.Character.Animate
+		local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616088211"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616089559"
 	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616095330"
@@ -468,11 +468,11 @@ end)
 local ss = s:Tab("Auto Redeem All Codes")
 
 ss:Button("150K Cash (easterdahood)",function()
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
-repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
-game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
+	if not game:IsLoaded() then
+    	game.Loaded:Wait()
+	end
+	repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
+	game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
 end)
 
 local ss = s:Tab("Credits")
