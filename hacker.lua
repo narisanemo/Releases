@@ -69,7 +69,7 @@ ss:Button("Rejoin",function()
 end)
 
 ss:Button("Server Hop",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/p7ShYJY2'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LEWISLEWISLEWISLEWISLEWIS/my-scripts/main/ServerHop.lua", true))()
 end)
 
 ss:Button("Animation Gamepass (FREE)",function()
