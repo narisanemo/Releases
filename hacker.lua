@@ -123,18 +123,6 @@ ss:Button("Big Head FE (RTHRO HEAD AND R15 REQUIRED)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/vahidDqX'))()
 end)
 
-ss:Button("Skinny[NOT FE]",function()
-        local Plr = game.Players.LocalPlayer;
-    Plr.Character.Humanoid.BodyWidthScale.Value = 0.47;
-    Plr.Character.Humanoid.BodyDepthScale.Value = 0.47;
-end)
-
-ss:Button("Normal[NOT FE]",function()
-local Plr = game.Players.LocalPlayer;
-Plr.Character.Humanoid.BodyWidthScale.Value = 1;
-Plr.Character.Humanoid.BodyDepthScale.Value = 1;
-end)
-
 local ss = s:Tab("Combat")
 
 ss:Button("Fist Reach",function()
