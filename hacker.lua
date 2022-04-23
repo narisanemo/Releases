@@ -48,6 +48,10 @@ ss:Button("Chat Logs",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/nzXicwc1", true))()
 end)
 
+ss:Button("Tool Pick",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/2xFMVTpY'))()
+end)
+
 ss:Button("Lock (Q)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/JcfqHEUz'))()
 end)
