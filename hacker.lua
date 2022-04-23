@@ -19,6 +19,13 @@ Color = Color3.new(255, 0, 0);
 Font = Enum.Font.SourceSansBold;
 FontSize = Enum.FontSize.Size24;
 })
+
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
+game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
+end)
  
 local s = VLib:Window("GingerVirus", "By nar#6969", "DH")
  
@@ -467,14 +474,6 @@ ss:Button("Robot", function()
 end)
 
 local ss = s:Tab("Auto Redeem All Codes")
-
-ss:Button("150K Code (easterdahood)",function()
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
-repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
-game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
-end)
 
 local ss = s:Tab("Credits")
 
