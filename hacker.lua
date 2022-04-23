@@ -467,6 +467,14 @@ end)
 
 local ss = s:Tab("Auto Redeem All Codes")
 
+ss:Button("150K Cash (easterdahood)",function()
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
+game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
+end)
+
 local ss = s:Tab("Credits")
 
 ss:Button("Script Made and Built by nar",function()
@@ -474,9 +482,3 @@ end)
 
 ss:Button("Contact nar#6969 To Suggest something.",function()
 end)
-
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
-repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
-game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
