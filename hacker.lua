@@ -9,7 +9,12 @@
 
 
 
-
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
+game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
+end)
 
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
 
@@ -20,13 +25,6 @@ Font = Enum.Font.SourceSansBold;
 FontSize = Enum.FontSize.Size24;
 })
 
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
-repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
-game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
-end)
- 
 local s = VLib:Window("GingerVirus", "By nar#6969", "DH")
  
 local ss = s:Tab("Main")
