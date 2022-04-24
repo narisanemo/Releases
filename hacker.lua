@@ -285,8 +285,7 @@ end)
 
 local ss = s:Tab("Animations")
 
-ss:Button("Reset Animation To Default",function()
-	while true do
+ss:Button("Reset Animation",function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782841498"
