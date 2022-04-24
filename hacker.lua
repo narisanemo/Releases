@@ -503,6 +503,6 @@ repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlay
 game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
 
 else
-lp:Kick('Not in group (GROUP LINK COPIED TO CLIPBOARD)')
+lp:Kick('Join The Group To Use GingerVirus (GROUP LINK COPIED TO CLIPBOARD')
 setclipboard("https://www.roblox.com/groups/4843468")
 end
