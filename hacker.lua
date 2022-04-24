@@ -11,10 +11,10 @@ if lp:IsInGroup(4843468)
 then
 game.StarterGui:SetCore("SendNotification", {
 Title = "GingerVirus";
-Text = "In Group";
+Text = "Thanks For Using";
 })
 
-wait(3)
+wait(2)
 
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
 
@@ -503,6 +503,6 @@ repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlay
 game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
 
 else
-lp:Kick('Join The Group To Use GingerVirus (GROUP LINK COPIED TO CLIPBOARD')
+lp:Kick('Join The Group To Use Script (GROUP LINK COPIED TO CLIPBOARD')
 setclipboard("https://www.roblox.com/groups/4843468")
 end
