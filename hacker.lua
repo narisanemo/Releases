@@ -6,7 +6,20 @@
 █░▀▌ █▐█▀ █▀▀ █▀█ ░█░     █▀█ █░▀▌ █▀█ █ █░▀█ 
 ▀▀▀░ ▀░▀▀ ▀▀▀ ▀░▀ ░▀░     ▀░▀ ▀▀▀░ ▀░▀ ▀ ▀░░▀ ]]--
 
+lp = game.Players.LocalPlayer
+if lp:IsInGroup(4843468)
+then
+game.StarterGui:SetCore("SendNotification", {
+Title = "GingerVirus";
+Text = "In Group";
+})
 
+wait(5)
+
+else
+lp:Kick('Not in group (GROUP LINK COPIED TO CLIPBOARD')
+setclipboard("https://www.roblox.com/groups/4843468")
+end
 
 
 
