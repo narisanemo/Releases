@@ -14,14 +14,7 @@ Title = "GingerVirus";
 Text = "In Group";
 })
 
-wait(5)
-
-else
-lp:Kick('Not in group (GROUP LINK COPIED TO CLIPBOARD)')
-setclipboard("https://www.roblox.com/groups/4843468")
-end
-
-
+wait(3)
 
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
 
@@ -508,3 +501,8 @@ if not game:IsLoaded() then
 end
 repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
 game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
+
+else
+lp:Kick('Not in group (GROUP LINK COPIED TO CLIPBOARD)')
+setclipboard("https://www.roblox.com/groups/4843468")
+end
