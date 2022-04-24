@@ -110,6 +110,10 @@ ss:Button("Broken Bones (FE)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/X3LJJhuv'))()
 end)
 
+ss:Button("HolyCross",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/GS1JW87E'))()
+end)
+
 ss:Button("Headless (NOT FE)",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/4wESFR1h'))()
 end)
