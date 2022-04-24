@@ -17,7 +17,7 @@ Text = "In Group";
 wait(5)
 
 else
-lp:Kick('Not in group (GROUP LINK COPIED TO CLIPBOARD')
+lp:Kick('Not in group (GROUP LINK COPIED TO CLIPBOARD)')
 setclipboard("https://www.roblox.com/groups/4843468")
 end
 
