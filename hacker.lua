@@ -10,7 +10,7 @@ lp = game.Players.LocalPlayer
 if lp:IsInGroup(4843468)
 then
 game.StarterGui:SetCore("SendNotification", {
-Title = "GingerVirus";
+Title = "GingerWare";
 Text = "Thanks For Using";
 })
 
@@ -25,7 +25,7 @@ Font = Enum.Font.SourceSansBold;
 FontSize = Enum.FontSize.Size24;
 })
 
-local s = VLib:Window("GingerVirus", "By nar#6969", "DH")
+local s = VLib:Window("GingerWare", "By nar#6969", "https://cdn.discordapp.com/attachments/877934498791178261/968142288230449162/unknown.png")
  
 local ss = s:Tab("Main")
 
@@ -57,7 +57,7 @@ ss:Button("Tool Pick",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/2xFMVTpY'))()
 end)
 
-ss:Button("Lock (Q)",function()
+ss:Button("Lock [E]",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/JcfqHEUz'))()
 end)
 
