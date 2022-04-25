@@ -25,7 +25,7 @@ Font = Enum.Font.SourceSansBold;
 FontSize = Enum.FontSize.Size24;
 })
 
-local s = VLib:Window("GingerWare", "By nar#6969", "https://tr.rbxcdn.com/a401f1b54c3469d2617c7a218eda0199/150/150/AvatarHeadshot/Png")
+local s = VLib:Window("GingerWare", "By nar#6969", "DH")
  
 local ss = s:Tab("Main")
 
