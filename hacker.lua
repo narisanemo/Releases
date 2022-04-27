@@ -56,10 +56,6 @@ ss:Button("Chat Logs",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/nzXicwc1", true))()
 end)
 
-ss:Button("Tool Pick",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/2xFMVTpY'))()
-end)
-
 ss:Button("Lock [E]",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/JcfqHEUz'))()
 end)
@@ -78,10 +74,6 @@ end)
 
 ss:Button("Server Hop",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LEWISLEWISLEWISLEWISLEWIS/my-scripts/main/ServerHop.lua", true))()
-end)
-
-ss:Button("Animation Gamepass (FREE)",function()
-     loadstring(game:HttpGet('https://pastebin.com/raw/bq8Lmz2N'))()
 end)
 
 ss:Button("Anti AFK",function()
@@ -151,6 +143,14 @@ end)
 
 ss:Button("Auto Stomp Off",function()
      loadstring(game:HttpGet('https://pastebin.com/raw/U7h1hn4e'))()
+end)
+
+ss:Button("Animation Gamepass [FREE]",function()
+     loadstring(game:HttpGet('https://pastebin.com/raw/bq8Lmz2N'))()
+end)
+
+ss:Button("Tool Pick",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/2xFMVTpY'))()
 end)
 
 local ss = s:Tab("Player")
