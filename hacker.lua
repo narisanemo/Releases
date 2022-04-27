@@ -72,10 +72,6 @@ ss:Button("Rejoin",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/hXVHw51B'))()
 end)
 
-ss:Button("Server Hop",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/LEWISLEWISLEWISLEWISLEWIS/my-scripts/main/ServerHop.lua", true))()
-end)
-
 ss:Button("Anti AFK",function()
     local vu = game:GetService("VirtualUser")
     game:GetService("Players").LocalPlayer.Idled:connect(function()
