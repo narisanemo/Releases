@@ -14,8 +14,6 @@ Title = "GingerWare";
 Text = "Thanks For Using";
 })
 
-wait(2)
-
 game.StarterGui:SetCore("SendNotification", {
 Title = "GingerWare";
 Text = "RightControl To Toggle";
