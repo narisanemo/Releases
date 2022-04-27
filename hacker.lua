@@ -16,6 +16,11 @@ Text = "Thanks For Using";
 
 wait(2)
 
+game.StarterGui:SetCore("SendNotification", {
+Title = "GingerWare";
+Text = "RightControl To Toggle";
+})
+
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
