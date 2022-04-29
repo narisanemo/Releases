@@ -489,11 +489,9 @@ end)
 
 local ss = s:Tab("Credits")
 
-ss:Button("Script Made and Built by nar",function()
-end)
+ss:Label("Script Made and Built by nar.")
 
-ss:Button("Contact nar#6969 To Suggest something.",function()
-end)
+ss:Label("Contact nar#6969 To Suggest something.")
 
 if not game:IsLoaded() then
     game.Loaded:Wait()
