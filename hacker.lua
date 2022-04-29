@@ -13,13 +13,15 @@ game:GetService:SetCore("SendNotification",{
 	Title = "Gingerware";
 	Text = "Thanks For Using";
 	Time = 10;
-	Icon = "rbxassetid://2691749285"
+	Icon = "rbxassetid://2691749285";
+})
 
 game:GetService:SetCore("SendNotification",{
 	Title = "Gingerware Loaded";
-	Text = "RightControl To Toggle"
+	Text = "RightControl To Toggle";
 	Time = 10;
-	Icon = "rbxassetid://505845268"
+	Icon = "rbxassetid://505845268";
+})
 
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
 
