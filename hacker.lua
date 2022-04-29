@@ -40,7 +40,7 @@ ss:Button("Fly [X]",function()
 end)
 
 ss:Button("Anti Stomp",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlueaqeR/scripts-lol/main/Da%20Hood%20Anti%20Stomp%20(Optimized)"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/BrzKzYtm"))()
 end)
 
 ss:Button("Force Reset",function()
