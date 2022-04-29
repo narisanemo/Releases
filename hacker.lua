@@ -11,14 +11,21 @@ if lp:IsInGroup(4843468)
 then
 
 game.StarterGui:SetCore("SendNotification", {
-Title = "GingerWare Loaded";
-Text = "Thanks For Using";
-})
+    Title = 'GingerWare Loaded';
+    Text = 'Thanks For Using';
+    Duration = 7;
+  })
 
 game.StarterGui:SetCore("SendNotification", {
 Title = "GingerWare Alert";
 Text = "RightControl To Toggle";
 })
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = 'GingerWare Alert';
+    Text = 'RightControl To Toggle';
+    Duration = 15;
+  })
 
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
 
