@@ -491,7 +491,7 @@ local ss = s:Tab("Credits")
 
 ss:Label("Script Made and Built by nar.")
 
-ss:Label("Contact nar#6969 To Suggest something.")
+ss:Label("Contact nar#1337 To Suggest something.")
 
 if not game:IsLoaded() then
     game.Loaded:Wait()
@@ -501,5 +501,5 @@ game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
 
 else
 lp:Kick('Join The Group To Use Script (GROUP LINK COPIED TO CLIPBOARD')
-setclipboard("https://www.roblox.com/groups/4843468")
+setclipboard("https://www.roblox.com/groups/4843468/redirect")
 end
