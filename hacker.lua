@@ -9,18 +9,19 @@
 lp = game.Players.LocalPlayer
 if lp:IsInGroup(4843468)
 then
-game:GetService:SetCore("SendNotification",{
-	Title = "Gingerware";
-	Text = "Thanks For Using";
-	Time = 10;
-	Icon = "rbxassetid://2691749285";
-})
 
 game:GetService:SetCore("SendNotification",{
 	Title = "Gingerware Loaded";
 	Text = "RightControl To Toggle";
 	Time = 10;
 	Icon = "rbxassetid://505845268";
+})
+
+game.StarterGui:SetCore("SendNotification", {
+Title = "Gingerware Loaded";
+Text = "RightControl To Toggle";
+Time = 10;
+Icon = "rbxassetid://2691749285";
 })
 
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
