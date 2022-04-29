@@ -15,7 +15,7 @@ game:GetService:SetCore("SendNotification",{
 	Time = 10;
 	Icon = "rbxassetid://2691749285"
 
-game:GetService("StarterGui"):SetCore("SendNotification",{
+game:GetService:SetCore("SendNotification",{
 	Title = "Gingerware Loaded";
 	Text = "RightControl To Toggle"
 	Time = 10;
