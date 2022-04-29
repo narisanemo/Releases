@@ -11,11 +11,12 @@ if lp:IsInGroup(4843468)
 then
 
 game.StarterGui:SetCore("SendNotification", {
-Title = "Gingerware Loaded";
+Title = "GingerWare Loaded";
 Text = "Thanks For Using";
+})
 
 game.StarterGui:SetCore("SendNotification", {
-Title = "Gingerware Alert";
+Title = "GingerWare Alert";
 Text = "RightControl To Toggle";
 })
 
