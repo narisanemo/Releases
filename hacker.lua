@@ -9,7 +9,7 @@
 lp = game.Players.LocalPlayer
 if lp:IsInGroup(4843468)
 then
-game:GetService("StarterGui"):SetCore("SendNotification",{
+game:GetService:SetCore("SendNotification",{
 	Title = "Gingerware";
 	Text = "Thanks For Using";
 	Time = 10;
