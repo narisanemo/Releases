@@ -17,11 +17,6 @@ game.StarterGui:SetCore("SendNotification", {
   })
 
 game.StarterGui:SetCore("SendNotification", {
-Title = "GingerWare Alert";
-Text = "RightControl To Toggle";
-})
-
-game.StarterGui:SetCore("SendNotification", {
     Title = 'GingerWare Alert';
     Text = 'RightControl To Toggle';
     Duration = 15;
