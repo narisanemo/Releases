@@ -10,13 +10,6 @@ lp = game.Players.LocalPlayer
 if lp:IsInGroup(4843468)
 then
 
-game:GetService:SetCore("SendNotification",{
-	Title = "Gingerware Loaded";
-	Text = "RightControl To Toggle";
-	Time = 10;
-	Icon = "rbxassetid://505845268";
-})
-
 game.StarterGui:SetCore("SendNotification", {
 Title = "Gingerware Loaded";
 Text = "RightControl To Toggle";
