@@ -12,9 +12,11 @@ then
 
 game.StarterGui:SetCore("SendNotification", {
 Title = "Gingerware Loaded";
+Text = "Thanks For Using";
+
+game.StarterGui:SetCore("SendNotification", {
+Title = "Gingerware Alert";
 Text = "RightControl To Toggle";
-Time = 10;
-Icon = "rbxassetid://2691749285";
 })
 
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
