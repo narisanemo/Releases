@@ -16,12 +16,6 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 7;
   })
 
-game.StarterGui:SetCore("SendNotification", {
-    Title = 'GingerWare Alert';
-    Text = 'RightControl To Toggle';
-    Duration = 15;
-  })
-
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -33,6 +27,14 @@ FontSize = Enum.FontSize.Size24;
 
 local s = VLib:Window("GingerWare", "By nar#1337", "DH")
  
+local ss = s:Tab("Home")
+
+ss:Label("RightControl To Toggle")
+
+ss:Label("Script Made and Built by nar.")
+
+ss:Label("Contact nar#1337 To Suggest something.")
+
 local ss = s:Tab("Main")
 
 ss:Button("Fly [X]",function()
@@ -498,18 +500,6 @@ ss:Button("Robot", function()
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616087089"
 	game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end)
-
-local ss = s:Tab("Credits")
-
-ss:Label("Script Made and Built by nar.")
-
-ss:Label("Contact nar#1337 To Suggest something.")
-
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
-repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
-game.ReplicatedStorage.MainEvent:FireServer("EnterPromoCode","easterdahood")
 
 else
 lp:Kick('Join The Group To Use Script (GROUP LINK COPIED TO CLIPBOARD')
