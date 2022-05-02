@@ -90,6 +90,15 @@ end)
 
 local ss = s:Tab("Fun Stuff")
 
+ss:Button("Enable Shaders [WON'T LAG]",function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/TUyMUGYz", true))()
+end)
+
+ss:Button("Disable Shaders",function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/GSPB0dnQ", true))()
+end)
+
+
 ss:Button("Walk On Walls (FE)",function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/WalkOnWalls/main/YesEpic", true))()
 end)
