@@ -297,7 +297,60 @@ ss:Button("Gas Station",function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(593.900024, 49.0000305, -258.109253, 0.00797744654, -5.46651719e-08, 0.999968171, 5.64564075e-08, 1, 5.42165175e-08, -0.999968171, 5.60221025e-08, 0.00797744654)
 end)
 
-local ss = s:Tab("Animations")
+local ss = s:Tab("Face Changer [Client]")
+
+ss:Button("Faceless",function()
+local a= game:GetService("Players").LocalPlayer
+local id = "9250643"
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = id
+end)
+
+ss:Button("Super Super Happy Face",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset?id=494290547"
+end)
+
+ss:Button("Playful Vampire",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset?id=2409281591"
+end)
+
+ss:Button("Meanie",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=508490451"
+end)
+
+ss:Button("Yum!",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=26018945"
+end)
+
+ss:Button("Crybaby",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=2620487058"
+end)
+
+ss:Button("Stitchface",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=8329438"
+end)
+
+ss:Button("Blizzard Beast Mode",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=209712379"
+end)
+
+ss:Button("Beast Mode",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=127959433"
+end)
+
+ss:Button("Radioactive Beast Mode",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=2225757922"
+end)
+
+local ss = s:Tab("Animation Changer")
 
 ss:Button("Tryhard Animation",function()
 	local Animate = game.Players.LocalPlayer.Character.Animate
