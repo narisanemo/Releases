@@ -300,7 +300,9 @@ end)
 local ss = s:Tab("Face Changer [Client]")
 
 ss:Button("Faceless",function()
-            player.Character.Head.face:Destroy()
+local a= game:GetService("Players").LocalPlayer
+local id = "9250643"
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = id
 end)
 
 ss:Button("Super Super Happy Face",function()
