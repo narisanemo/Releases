@@ -320,6 +320,11 @@ local a = game:GetService("Players").LocalPlayer
 a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=508490451"
 end)
 
+ss:Button("Epic Face",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=42070872"
+end)
+
 ss:Button("Yum!",function()
 local a = game:GetService("Players").LocalPlayer
 a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=26018945"
