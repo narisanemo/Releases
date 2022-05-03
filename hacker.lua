@@ -325,9 +325,29 @@ local a = game:GetService("Players").LocalPlayer
 a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=26018945"
 end)
 
+ss:Button("Optimist",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=21024598"
+end)
+
+ss:Button("Silver Punk Face",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=387256104"
+end)
+
+ss:Button("Troublemaker",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=22920500"
+end)
+
 ss:Button("Crybaby",function()
 local a = game:GetService("Players").LocalPlayer
 a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=2620487058"
+end)
+
+ss:Button("Tattletale",function()
+local a = game:GetService("Players").LocalPlayer
+a.Character:FindFirstChild("Head"):FindFirstChild("face").Texture = "http://www.roblox.com/asset/?id=26343132"
 end)
 
 ss:Button("Stitchface",function()
